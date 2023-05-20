@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+@layer base {
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #ff4d30 #ffffff;
+  }
+
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+    width: 10px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  *::-webkit-scrollbar-track:hover {
+    background-color: #ffffff;
+  }
+
+  *::-webkit-scrollbar-track:active {
+    background-color: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #ff4d30;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #ff4d30;
+  }
+
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #ff2525;
+  }
+  .btn {
+    background-color: #ff4d30;
+    border-radius: 2px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+    font-weight: 500;
+    transition: all;
+    transition-duration: 1s;
+  }
+}
