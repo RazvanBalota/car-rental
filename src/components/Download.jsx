@@ -4,7 +4,7 @@ import appstore from "../assets/appstore.svg";
 
 function Download() {
   return (
-    <section className=" h-[560px] bg-[#f8f8f8] bg-download bg-no-repeat bg-bottom mt-20 flex items-center">
+    <section className=" h-[560px] bg-[#f8f8f8] bg-download bg-no-repeat bg-bottom mt-20 flex items-center mb-10">
       <div className="container mx-auto flex flex-col px-10">
         <div className="max-w-[520px]">
           <h2 className="text-4xl text-center lg:text-left font-semibold mb-6">

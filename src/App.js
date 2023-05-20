@@ -12,9 +12,8 @@ function App() {
   return (
     <>
       <Nav />
-      ``
       <Routes>
-        <Route index path="/" element={<Home />} />
+        <Route index path="/car-rental" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/testimonials" element={<TestimonialsPage />} />
         <Route path="/vehicles" element={<VehiclesPage />} />

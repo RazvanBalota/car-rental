@@ -12,16 +12,16 @@ function Nav() {
   };
 
   return (
-    <nav className="py-6 w-full flex items-center absolute z-10 ">
-      <div className="container mx-auto flex items-center justify-between gap-x-10 pt-4 px-6">
+    <nav className="py-6 px-4 lg:px-10 w-full flex items-center absolute z-10 ">
+      <div className="container mx-auto flex items-center justify-between gap-x-10 pt-4 px-6 ">
         <div className="w-36 flex ">
-          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+          <Link to="/car-rental" onClick={() => window.scrollTo(0, 0)}>
             <img src={logo} alt="" />
           </Link>
         </div>
         <div className="hidden md:hidden lg:flex">
           <ul className="flex gap-x-6 font-rubik text-[#010103] font-medium tracking-wide">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <Link to="/car-rental" onClick={() => window.scrollTo(0, 0)}>
               <li className="hover:text-[#ff4d30] cursor-pointer transition-all delay-75">Home</li>
             </Link>
             <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
@@ -58,7 +58,7 @@ function Nav() {
       </div>
       {nav ? (
         <ul className="bg-white text-2xl font-medium gap-y-10 flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen">
-          <Link to="/" onClick={openNav}>
+          <Link to="/car-rental" onClick={openNav}>
             <li className="hover:text-[#ff4d30] cursor-pointer transition-all delay-75">Home</li>
           </Link>
           <Link to="/about" onClick={openNav}>

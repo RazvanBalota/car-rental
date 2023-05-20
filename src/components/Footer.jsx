@@ -4,10 +4,10 @@ import { GrMail } from "react-icons/gr";
 
 function Footer() {
   return (
-    <div className="h-[40vh]">
+    <div className="[40vh] px-20 mb-6">
       <div className="container mx-auto flex flex-col lg:flex-row">
         <div className="flex flex-1 flex-col lg:flex-row text-center lg:text-left px-10">
-          <div className="mt-10">
+          <div className="pb-6">
             <h2 className="text-2xl mb-4">
               <span className="font-bold">CAR</span> Rental
             </h2>
@@ -29,7 +29,7 @@ function Footer() {
             <p></p>
           </div>
         </div>
-        <div className="flex flex-1 flex-col text-center lg:text-left px-10 mt-10">
+        <div className="flex flex-1 flex-col text-center lg:text-left px-10 pb-6">
           <div className="mb-4">
             <p className="text-2xl font-bold">COMPANY</p>
           </div>
@@ -43,13 +43,13 @@ function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-1 flex-col text-center lg:text-left px-10 mt-10">
+        <div className="flex flex-1 flex-col text-center lg:text-left px-10 pb-6 ">
           <h2 className="mb-4 text-2xl font-bold">WORKING HOURS</h2>
           <p className="mb-2">Mon - Fri: 9:00AM - 9:00PM</p>
           <p className="mb-2">Sat: 9:00AM - 19:00PM</p>
           <p>Sun: Closed</p>
         </div>
-        <div className="flex flex-1 flex-col text-center lg:text-left px-10 mt-10 pb-10">
+        <div className="flex flex-1 flex-col text-center lg:text-left px-10 ">
           <h2 className="mb-4 text-2xl font-bold">SUBSCRIPTION</h2>
           <p className="mb-2">Subscribe your Email address for latest news & updates.</p>
           <input
